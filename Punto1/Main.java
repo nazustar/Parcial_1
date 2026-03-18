@@ -2,7 +2,7 @@ package Punto1;
 
 import Punto1.Clientes.Cliente1;
 import Punto1.Clientes.Cliente2;
-import Punto1.Recomendaciones.EstadoDeAnimo;
+import Punto1.Recomendaciones.stateDeAnimo;
 import Punto1.Recomendaciones.TiempoDisponible;
 
 public class Main {
@@ -14,8 +14,8 @@ public class Main {
         //Uso de Recomendacion por popularidad.
         cliente1.obtenerRecomendaciones();
         //Cambio en tiempo de ejecucion.
-        System.out.println("Ahora el cliente 1 desea que se recomiende por estado de animo:");
-        cliente1.recomendacion = new EstadoDeAnimo();
+        System.out.println("Ahora el cliente 1 desea que se recomiende por state de animo:");
+        cliente1.recomendacion = new stateDeAnimo();
         cliente1.obtenerRecomendaciones();
 
         System.out.println("Recomendaciones para el cliente #2:");
